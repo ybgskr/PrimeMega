@@ -12,7 +12,7 @@
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a><br>
 <a href="https://docs.telethon.dev"> <img src="https://img.shields.io/badge/Telethon-1.23.0-red?&style=flat-round&logo=github" alt="Telethon" /> </a>
 <a href="https://docs.python.org"> <img src="https://img.shields.io/badge/Python-3.9.7-purple?&style=flat-round&logo=python" alt="Python" /> </a><br>
-<a href="https://github.com/ybgskr/PrimeMega.git"> <img src="https://img.shields.io/badge/Maintained-Yes-yellow.svg" alt="@ybgskr12" /> </a><br>
+<a href="http://github.com/Tonic990/PrimeMega"> <img src="https://img.shields.io/badge/Maintained-@ybgskr12-yellow.svg" alt="Maintained" /> </a><br>
 <a href="https://github.com/Tonic990/PrimeMega/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License" /> </a>
 <a href="https://makeapullrequest.com"> <img src="https://img.shields.io/badge/PRs-Welcome-blue.svg?style=flat-round" alt="PRs" /> </a>
 </p>
