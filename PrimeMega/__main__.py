@@ -81,10 +81,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ───「[PrimeMega](https://t.me/PrimeMegaBot)」───
+ ───「[BAGASKARA 1UP](https://t.me/oneupdirty_bot)」───
 *Hello {} !*
 ────────────────────────
-PrimeMega a powerful group management bot built to help you manage your group!
+BAGASKARA 1UP a powerful group management bot built to help you manage your group!
 ────────────────────
 Hit the /help or tap on button to se available command on me.
 """
@@ -92,7 +92,7 @@ Hit the /help or tap on button to se available command on me.
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Add PrimeMega to your group ➕️", url="t.me/PrimeMegaBot?startgroup=true"
+            text="➕️ Add BAGASKARA 1UP to your group ➕️", url="t.me/oneupdirty_bot?startgroup=true"
         ),
     ],
     [
@@ -112,10 +112,10 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-PRIME_IMG = "https://telegra.ph/file/b9fa4e1360d0a872a3cd5.jpg"
+PRIME_IMG = "https://telegra.ph/file/632bcc290f36c4684716e.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @Bukan_guudlooking \
+ You can support the project by contacting @ybgskr12 \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -231,7 +231,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hi I'm PrimeMega robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
+            f"<b>Hi I'm BAGASKARA 1UP Robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -362,7 +362,7 @@ def prime_about_callback(update, context):
     query = update.callback_query
     if query.data == "prime_":
         query.message.edit_text(
-            text="๏ I'm *PrimeMega*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *BAGASKARA 1UP*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -410,7 +410,7 @@ def prime_about_callback(update, context):
     elif query.data == "prime_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, PrimeMegaRobot now ready to manage your group."
+            "\nCongragulations, Pr now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -437,14 +437,14 @@ def prime_about_callback(update, context):
         )
     elif query.data == "prime_support":
         query.message.edit_text(
-            text="*๏ PrimeMega support chats*"
+            text="*๏ BAGASKARA 1UP support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on PrimeMega.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/PrimeSupportGroup"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/PrimeSupportChannel"),
+                    InlineKeyboardButton(text="Support", url="t.me/allfucek"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/loveisfuckedup"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="prime_"),
@@ -786,7 +786,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**PrimeMega Robot Started!**
+                f"""**BAGASKARA 1UP Robot Started!**
 
 **Python:** `{memek()}`
 **Telegram Library:** `v{peler}`""",
